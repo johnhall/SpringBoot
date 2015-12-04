@@ -1,5 +1,6 @@
 package com.example;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.web.WebAppConfiguration;
@@ -14,5 +15,10 @@ public class DemoApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+
+    @Test
+    public void testHello() {
+        Assert.assertEquals("Hello World!", DemoApplication.saySomethingThatMeetsCodingStandards());
+    }
 
 }

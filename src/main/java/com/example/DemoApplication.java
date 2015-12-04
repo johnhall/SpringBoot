@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DemoApplication {
 
-    public String saySomething() {
+    public static String saySomethingThatMeetsCodingStandards() {
         return "Hello World!";
     }
 
