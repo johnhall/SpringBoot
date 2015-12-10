@@ -13,4 +13,9 @@ public class DemoClassTest {
     public void saySomethingToo() {
         Assert.assertEquals("Hello World Again!", DemoClass.saySomethingToo());
     }
+
+    @Test
+    public void addingMissingTestCase() {
+        Assert.assertEquals("Are you tired of Hello World yet??", DemoClass.saySomethingThree());
+    }
 }
