@@ -5,7 +5,7 @@ package com.example;
  */
 public class DemoService {
 
-    public static String saySomething() {
+    public static String saySomethingThatMeetsStandard() {
         return "Hello World!";
     }
 }
