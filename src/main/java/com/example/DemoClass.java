@@ -13,4 +13,8 @@ public class DemoClass {
         return "Are you tired of Hello World yet??";
     }
 
+    public static String saySomethingFour() {
+        return "Are you tired of Hello World yet??";
+    }
+
 }
